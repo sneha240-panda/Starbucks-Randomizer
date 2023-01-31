@@ -14,6 +14,7 @@
 Our project is important since it’s a logic game, which helps people to think outside of the box. Creative thinking is an extremely important skill in today’s world, as it makes us better decision makers and better problem solvers. Our game is interesting since we all love escape rooms, and we think that being able to code one is extremely exciting. It requires people to come up with logical and creative solutions so that they can win, and as hints and solutions usually revolve around a storyline, it allows the player(s) to feel like they are part of a greater narrative, which is something we all love to feel. 
 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
+We will be using C++ (stl library), SDL2 Library (it runs on C/C++) to display our game, and Adobe Illustrator to draw our clues and backgrounds for the game.
 
 
  > * What will be the input/output of your project?
