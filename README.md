@@ -17,6 +17,10 @@ Authors: <br>
 
 Our project is important since it’s a logic game, which helps people to think outside of the box. Creative thinking is an extremely important skill in today’s world, as it makes us better decision makers and better problem solvers. Our game is interesting since we all love escape rooms, and we think that being able to code one is extremely exciting. It requires people to come up with logical and creative solutions so that they can win, and as hints and solutions usually revolve around a storyline, it allows the player(s) to feel like they are part of a greater narrative, which is something we all love to feel. 
 
+Plan B answer: This would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like starbucks)
+This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
+
+
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
 
 
