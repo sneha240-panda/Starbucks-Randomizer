@@ -21,7 +21,8 @@ Our project is important since it’s a logic game, which helps people to think 
 
 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
-We would use primarily C++, and use specifically the math library to generate certain items randomly
+Plan A: We will be using C++ (stl library), SDL2 Library (it runs on C/C++) to display our game, and Adobe Illustrator to draw our clues and backgrounds for the game
+Plan B: We would use primarily C++, and use specifically the math library to generate certain items randomly
 
 
  > * What will be the input/output of your project?
