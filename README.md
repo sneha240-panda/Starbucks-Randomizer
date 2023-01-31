@@ -36,7 +36,8 @@ The output would be the selection made for each individual selection made by the
 The features of the escape room include doors, a player of the game, rooms, as well as clues and hints that pop-up as the player navigates the escape room. There will also be graphics of scenery in the room so that the character knows their location at all times. These features ensure that the player can successfully navigate themselves out of the escape room.
 
 PLAN B: This project would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like Starbucks!)
-This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
+
+WHY IS IT INTERESTING IMPORTANT: This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
 
 LANGUAGES/TECH-STACKS: We would use primarily C++, and use specifically the math library to generate certain items randomly.
 
