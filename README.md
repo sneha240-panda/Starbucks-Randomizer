@@ -2,7 +2,8 @@
  > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
  > Prompt text is any lines beginning with "\>"
  > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
-*Note: Our first idea is coding an escape room. the concept of an escape room is that a person is put into a room and they try to escape from it. The second idea is a drink randomizer that when you input a weather type, it outputs a random drink for you to try. The first idea is Plan A and anything denoted with "Plan B" is the second idea.
+ > 
+ > *Note: Our first idea is coding an escape room. the concept of an escape room is that a person is put into a room and they try to escape from it. The second idea is a drink randomizer that when you input a weather type, it outputs a random drink for you to try. The first idea is Plan A and anything denoted with "Plan B" is the second idea.
 # Don't be late, escape!
  > Your author list below should include links to all members GitHub (remove existing author).
 
