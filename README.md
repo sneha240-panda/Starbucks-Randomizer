@@ -4,7 +4,8 @@
  > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
 # \\
  > Your author list below should include links to all members GitHub (remove existing author).
- Authors: \<[Sneha Panda](https://github.com/sneha240-panda)\> \<[Kirtana Venkat](https://github.com/kirv1234)\> \<[Deepanjali Halaharivi](https://github.com/doubleeepie)\> \<[Zaniah Lewis](https://github.com/zlewis004)\> \<[Denis Melnikov](https://github.com/deet5)\> 
+ 
+ Authors: \[Sneha Panda](https://github.com/sneha240-panda)\ \[Kirtana Venkat](https://github.com/kirv1234)\ \<[Deepanjali Halaharivi](https://github.com/doubleeepie)\> \<[Zaniah Lewis](https://github.com/zlewis004)\> \<[Denis Melnikov](https://github.com/deet5)\> 
  >
 
 
