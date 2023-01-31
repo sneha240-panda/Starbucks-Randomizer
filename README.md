@@ -30,7 +30,7 @@ This is important because coffee is a staple for a lot of college students and a
 
   Visual outputs include progression of solving puzzles and messages that provide hints or solutions if needed. The final output would be the successful completion of the game or the failure to escape the “room”.
   
-PLAN B FEATURES: Our input would be the weather type. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, etc. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
+PLAN B INPUT/OUTPUT: Our input would be the weather type. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, etc. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
 
  > What are the features that the project provides?
  
