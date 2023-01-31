@@ -29,8 +29,6 @@ We will be using C++ (stl library), SDL2 Library (it runs on C/C++) to display o
 
   Visual outputs include progression of solving puzzles and messages that provide hints or solutions if needed. The final output would be the successful completion of the game or the failure to escape the “room”.
 
-The output would be the selection made for each individual selection made by the randomizer. The user would also receive an output if they were to input yes for any allergies, which should output altered selections to not include those specific combinations.
-
  > What are the features that the project provides?
  
 The features of the escape room include doors, a player of the game, rooms, as well as clues and hints that pop-up as the player navigates the escape room. There will also be graphics of scenery in the room so that the character knows their location at all times. These features ensure that the player can successfully navigate themselves out of the escape room.
