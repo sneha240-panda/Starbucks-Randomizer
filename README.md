@@ -22,6 +22,7 @@ This is important because coffee is a staple for a lot of college students and a
 
 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
+We would use primarily C++, and use specifically the math library to generate certain items randomly
 
 
  > * What will be the input/output of your project?
