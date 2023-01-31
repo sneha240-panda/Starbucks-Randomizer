@@ -36,12 +36,14 @@ The output would be the selection made for each individual selection made by the
  
 The features of the escape room include doors, a player of the game, rooms, as well as clues and hints that pop-up as the player navigates the escape room. There will also be graphics of scenery in the room so that the character knows their location at all times. These features ensure that the player can successfully navigate themselves out of the escape room.
 
-PLAN B: This would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like starbucks)
+PLAN B: This project would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like Starbucks!)
 This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
 
-INPUT/OUTPUT: Our input would be the weather type. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, etc. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
+INPUT/OUTPUT: Our input would be the weather type, such as whether the weather is sunny, rainy, or cloudy. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, and has whipped cream or other temperature-dependent factors or not. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
 
-FEATURES: One feature we would have is the option to select allergies or dietary restrictions, while another would be one that ranks the drink combination on a scale from 1-5 depending on how it tasted with 1 being not the greatest and 5 being the best. A user can create an account and save their history of drinks. Recipe suggestions based on user preferences and the nutritional information. 
+The output would be the selection made for each individual selection made by the randomizer. The user would also receive an output if they were to input yes for any allergies, which should output altered selections to not include those specific combinations.
+
+FEATURES: One feature we would have is the option to select allergies or dietary restrictions, while another would be one that ranks the drink combination on a scale from 1-5 depending on how it tasted with 1 being not the greatest and 5 being the best. Additionally, recipe suggestions based on user preferences and the nutritional information could be one. Another possibility is that a user can create an account and save their history of drinks.  
 
  > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
  > 
