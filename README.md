@@ -32,6 +32,8 @@ This is important because coffee is a staple for a lot of college students and a
   
 PLAN B INPUT/OUTPUT: Our input would be the weather type. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, etc. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
 
+The output would be the selection made for each individual selection made by the randomizer. The user would also receive an output if they were to input yes for any allergies, which should output altered selections to not include those specific combinations.
+
  > What are the features that the project provides?
  
 The features of the escape room include doors, a player of the game, rooms, as well as clues and hints that pop-up as the player navigates the escape room. There will also be graphics of scenery in the room so that the character knows their location at all times. These features ensure that the player can successfully navigate themselves out of the escape room.
