@@ -22,7 +22,8 @@ Our project is important since it’s a logic game, which helps people to think 
 
   Visual outputs include progression of solving puzzles and messages that provide hints or solutions if needed. The final output would be the successful completion of the game or the failure to escape the “room”.
 
- > * What are the features that the project provides?
+ > What are the features that the project provides?
+ 
 The features of the escape room include doors, a player of the game, rooms, as well as clues and hints that pop-up as the player navigates the escape room. There will also be graphics of scenery in the room so that the character knows their location at all times. These features ensure that the player can successfully navigate themselves out of the escape room.
 
  > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
