@@ -17,8 +17,7 @@ Authors: <br>
 
 Our project is important since it’s a logic game, which helps people to think outside of the box. Creative thinking is an extremely important skill in today’s world, as it makes us better decision makers and better problem solvers. Our game is interesting since we all love escape rooms, and we think that being able to code one is extremely exciting. It requires people to come up with logical and creative solutions so that they can win, and as hints and solutions usually revolve around a storyline, it allows the player(s) to feel like they are part of a greater narrative, which is something we all love to feel. 
 
-PLAN B: This would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like starbucks)
-This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
+
 
 
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
@@ -30,14 +29,19 @@ We would use primarily C++, and use specifically the math library to generate ce
  User will use the keyboard to input name,and will use will be left mouse clicking to move through the platform for doors and rooms as well as general navigation. The keyboard will be used to input for password and or clue entry. There will also be an input for if the user needs a hint.
 
   Visual outputs include progression of solving puzzles and messages that provide hints or solutions if needed. The final output would be the successful completion of the game or the failure to escape the “room”.
-  
-PLAN B INPUT/OUTPUT: Our input would be the weather type. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, etc. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
 
 The output would be the selection made for each individual selection made by the randomizer. The user would also receive an output if they were to input yes for any allergies, which should output altered selections to not include those specific combinations.
 
  > What are the features that the project provides?
  
 The features of the escape room include doors, a player of the game, rooms, as well as clues and hints that pop-up as the player navigates the escape room. There will also be graphics of scenery in the room so that the character knows their location at all times. These features ensure that the player can successfully navigate themselves out of the escape room.
+
+PLAN B: This would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like starbucks)
+This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
+
+INPUT/OUTPUT: Our input would be the weather type. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, etc. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
+
+FEATURES: One feature we would have is the option to select allergies or dietary restrictions, while another would be one that ranks the drink combination on a scale from 1-5 depending on how it tasted with 1 being not the greatest and 5 being the best. A user can create an account and save their history of drinks. Recipe suggestions based on user preferences and the nutritional information. 
 
  > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
  > 
