@@ -1,7 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9878934&assignment_repo_type=AssignmentRepo)
- > Note: Our first idea is coding an escape room. the concept of an escape room is that a person is put into a room and they try to escape from it. The second idea is a drink randomizer that when you input a weather type, it outputs a random drink for you to try. The first idea is Plan A and anything denoted with "Plan B" is the second idea. We started off as having the first idea's project title, but we describe the concept of both ideas below.
-# Don't be late, escape!
- > Your author list below should include links to all members GitHub (remove existing author).
+# Starbucks Sampler
 
 Authors: <br>
 \<[Sneha Panda](https://github.com/sneha240-panda)\> <br>
@@ -10,56 +8,20 @@ Authors: <br>
 \<[Zaniah Lewis](https://github.com/zlewis004)\> <br>
 \<[Denis Melnikov](https://github.com/deet5)\> 
 
+This project would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like Starbucks!)
 
- > * Why is it important or interesting to you?
+This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
 
-Our project is important since it’s a logic game, which helps people to think outside of the box. Creative thinking is an extremely important skill in today’s world, as it makes us better decision makers and better problem solvers. Our game is interesting since we all love escape rooms, and we think that being able to code one is extremely exciting. It requires people to come up with logical and creative solutions so that they can win, and as hints and solutions usually revolve around a storyline, it allows the player(s) to feel like they are part of a greater narrative, which is something we all love to feel. 
+We would use primarily C++, and use specifically the math library to generate certain items randomly.
 
-
-
-
- > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
-
-We will be using C++ (stl library), SDL2 Library (it runs on C/C++) to display our game, and Adobe Illustrator to draw our clues and backgrounds for the game.
-
-
- > * What will be the input/output of your project?
-
- User will use the keyboard to input name,and will use will be left mouse clicking to move through the platform for doors and rooms as well as general navigation. The keyboard will be used to input for password and or clue entry. There will also be an input for if the user needs a hint.
-
-  Visual outputs include progression of solving puzzles and messages that provide hints or solutions if needed. The final output would be the successful completion of the game or the failure to escape the “room”.
-
- > What are the features that the project provides?
- 
-The features of the escape room include doors, a player of the game, rooms, as well as clues and hints that pop-up as the player navigates the escape room. There will also be graphics of scenery in the room so that the character knows their location at all times. These features ensure that the player can successfully navigate themselves out of the escape room.
-
-PLAN B: This project would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like Starbucks!)
-
-WHY IS IT INTERESTING IMPORTANT: This is important because coffee is a staple for a lot of college students and adults alike and a lot of people do not know how many different combinations there are for good drinks. Also this would be fun for people to use and the coding would be complex to some extent but not impossible to do.
-
-LANGUAGES/TECH-STACKS: We would use primarily C++, and use specifically the math library to generate certain items randomly.
-
-INPUT/OUTPUT: Our input would be the weather type, such as whether the weather is sunny, rainy, or cloudy. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, and has whipped cream or other temperature-dependent factors or not. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
+Our input would be the weather type, such as whether the weather is sunny, rainy, or cloudy. A user could input what the weather is like outside and the randomizer would automatically adjust which features/aspects of the drink would be included, like whether the drink is hot or cold, has ice or not, and has whipped cream or other temperature-dependent factors or not. This way, the user would not have to keep pressing on a button to generate a random drink so many times and would be able to get one faster.
 
 The output would be the selection made for each individual selection made by the randomizer. The user would also receive an output if they were to input yes for any allergies, which should output altered selections to not include those specific combinations.
 
-FEATURES: One feature we would have is the option to select allergies or dietary restrictions, while another would be one that ranks the drink combination on a scale from 1-5 depending on how it tasted with 1 being not the greatest and 5 being the best. Additionally, recipe suggestions based on user preferences and the nutritional information could be one. Another possibility is that a user can create an account and save their history of drinks.  
+One feature we would have is the option to select allergies or dietary restrictions, while another would be one that ranks the drink combination on a scale from 1-5 depending on how it tasted with 1 being not the greatest and 5 being the best. Additionally, recipe suggestions based on user preferences and the nutritional information could be one. Another possibility is that a user can create an account and save their history of drinks. 
 
- > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
- > 
- > ## Phase II
- > In addition to completing the "Class Diagram" section below, you will need to:
- > * Create an "Epic" (note) for each feature. Place these epics in the `Product Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Break down the "Epics" into smaller actionable user stories (i.e. smaller development tasks). Convert them into issues and assign them to team members. Place these in the `TODO` column.
- >   * These cards should represent roughly 7 days worth of development time for your team. Then, once the sprint is over you should be repeating these steps to plan a new sprint, taking you until your second scrum meeting with the reader in phase III.
- > * Schedule two check-ins using Calendly. You need to pick both time slots during your lab on week 6. Your entire team must be present for both check-ins.
- >   * The first check-in needs to be scheduled with your lab TA. During that meeting, you will discuss your project design/class diagram from phase II.
- >   * The second check-in should be scheduled with a reader. During that meeting you will discuss:
- >     * The tasks you are planning for the first sprint
- >     * How work will be divided between the team members
+
 ## Class Diagram
- > Include a **class diagram(s)** for your project and a **description** of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
  
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
