@@ -23,6 +23,10 @@ One feature we would have is the option to select allergies or dietary restricti
 
 ## Class Diagram
  
+![alt text](/images/readme/UML.png)
+
+The program starts with asking the user their name and current weather outside, (we may add asking the user for their allergies or milk intolerances but we do not have that implemented yet). After that based on the weather outside, (if it is hot, they will be recommended a cold drink, and vice versa) the program would randomly generate a drink for them. The classes we have currently are subcategories of the final drink product. They fall under, caffeinated and non caffeinated. We made sure to include setter and getter methods in order to pull the drink names and customizations to display to the user after the choice is generated. Under caffeinated drinks, we split the group into tea and coffee. Tea leads to either cold or hot chai and only that as of right now, but we may add to this to include other teas. In coffee, which can all be hot or cold, we have lattes and or macchiatos (which are unmixed lattes), which include a certain type of milk, syrup, toppings, and a certain number of espresso shots. Espressos are just plain coffee as are americanos which are just diluted with more water. Turning into the non caffeinated group, we branch into frappes, which come in different flavors and the choice of whipped cream/toppings, and refreshers/lemonades which come in different flavors; both are cold. The hot option is hot chocolate, which only comes with the options of whipped cream and or toppings. We plan on storing our different choices for milk, syrups, flavors, and toppings in arrays for random generation. 
+
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
  
