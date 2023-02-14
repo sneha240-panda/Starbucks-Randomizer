@@ -2,11 +2,11 @@
 # Starbucks Sampler
 
 Authors: <br>
-\<[Sneha Panda](https://github.com/sneha240-panda)\> <br>
-\<[Kirtana Venkat](https://github.com/kirv1234)\> <br>
-\<[Deepanjali Halaharivi](https://github.com/doubleeepie)\> <br>
-\<[Zaniah Lewis](https://github.com/zlewis004)\> <br>
-\<[Denis Melnikov](https://github.com/deet5)\> <br>
+[Sneha Panda](https://github.com/sneha240-panda) <br>
+[Kirtana Venkat](https://github.com/kirv1234) <br>
+[Deepanjali Halaharivi](https://github.com/doubleeepie) <br>
+[Zaniah Lewis](https://github.com/zlewis004) <br>
+[Denis Melnikov](https://github.com/deet5) <br>
 
 This project would randomize drink selections like toppings, milks, coffee shots, flavor shots, temperature, etc. for someone who wants to try a new drink at their local cafe. (like Starbucks!)
 
