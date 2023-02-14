@@ -2,7 +2,7 @@
 # Starbucks Sampler
 
 Authors: <br>
-\<[Sneha Panda](https://github.com/sneha240-panda)\> 
+\<[Sneha Panda](https://github.com/sneha240-panda)\> <br>
 \<[Kirtana Venkat](https://github.com/kirv1234)\> <br>
 \<[Deepanjali Halaharivi](https://github.com/doubleeepie)\> <br>
 \<[Zaniah Lewis](https://github.com/zlewis004)\> <br>
