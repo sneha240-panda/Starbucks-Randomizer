@@ -14,4 +14,6 @@ class User
         string getName();
         string getDrink(); //returns the final drink with all parameters considered
 
-}
+};
+
+#endif
