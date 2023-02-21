@@ -1,6 +1,6 @@
 #ifndef WEATHER_H
 #define WEATHER_H
-
+#include <string>
 using namespace std;
 
 class Weather 

@@ -1,5 +1,7 @@
-#include "User.h"
+#include "../header/User.h"
+#include "../header/Weather.h"
 #include <string>
+#include <iostream>
 
 using namespace std;
 

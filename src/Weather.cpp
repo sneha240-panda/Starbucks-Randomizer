@@ -1,6 +1,6 @@
-#include "Weather.h"
+#include "../header/Weather.h"
 #include <string>
-
+#include <iostream>
 using namespace std;
 
 Weather::Weather(string w)
