@@ -1,11 +1,9 @@
 #ifndef CREMEFRAPPUCCINO_H
 #define CREMEFRAPPUCCINO_H
 
-// #include "../header/Drink.h"
-// #include "../header/NonCaffeinated.h"
+#include "../header/Drink.h"
+#include "../header/NonCaffeinated.h"
 #include <string>
-
-using namespace std;
 
 class CremeFrappuccino : public Drink, public NonCaffeinated
 {
