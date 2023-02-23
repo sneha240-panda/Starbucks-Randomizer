@@ -13,7 +13,7 @@ std::string CremeFrappuccino::getSyrup(int pos)
     {
         return "No such position in the Syrup array!";
     }
-    return arr[pos];
+    return syrup[pos];
 }
 
 std::string CremeFrappuccino::getName()
