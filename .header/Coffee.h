@@ -12,6 +12,6 @@ private:
 public:
     Coffee(bool);
     std::string getName();
-    
+    std::string getShots(int);
 }
 #endif
