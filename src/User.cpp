@@ -5,14 +5,17 @@
 
 using namespace std;
 
-User::User(string n, int a)
+User::User(string n, int a, bool c)
 {
     userName = n;
     age = a;
+    userCaff = c;
 }
 User::User()
 {
-    // dont remember how to do this - SP
+    age = 10;
+    userName = "username";
+    c = false;
 }
 string User::getName()
 {
@@ -21,7 +24,7 @@ string User::getName()
 string User::getDrink()
 {
    //my thought process is as follows:
-   //1. make sure you have the weather temperature and classification (e.g. 71 degrees translates to moderately cold)
+   //1. make sure you have the classification (e.g. moderately cold, etc)
    //2. have a statement that scans allergies and ingredients for each drink
    //3. make a big if statement to filter out types of drinks based on weather conditions
 }

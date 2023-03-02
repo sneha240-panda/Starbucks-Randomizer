@@ -7,6 +7,10 @@ Weather::Weather(string w)
 {
     weatherType = w; //the user should most likely input one word to describe the weather
 }
+Weather::Weather()
+{
+    weatherType = "cloudy";
+}
 string Weather::classifyDrinkType() //should tell what class of drinks the program should go to based on weather
 {
     if (weatherType == "sunny")
