@@ -27,27 +27,6 @@ One feature we would have is the option to select allergies or dietary restricti
 
 The program starts with asking the user their name and current weather outside, (we may add asking the user for their allergies or milk intolerances but we do not have that implemented yet). After that based on the weather outside, (if it is hot, they will be recommended a cold drink, and vice versa) the program would randomly generate a drink for them. The classes we have currently are subcategories of the final drink product. They fall under, caffeinated and non caffeinated. We made sure to include setter and getter methods in order to pull the drink names and customizations to display to the user after the choice is generated. Under caffeinated drinks, we split the group into tea and coffee. Tea leads to either cold or hot chai and only that as of right now, but we may add to this to include other teas. In coffee, which can all be hot or cold, we have lattes and or macchiatos (which are unmixed lattes), which include a certain type of milk, syrup, toppings, and a certain number of espresso shots. Espressos are just plain coffee as are americanos which are just diluted with more water. Turning into the non caffeinated group, we branch into frappes, which come in different flavors and the choice of whipped cream/toppings, and refreshers/lemonades which come in different flavors; both are cold. The hot option is hot chocolate, which only comes with the options of whipped cream and or toppings. We plan on storing our different choices for milk, syrups, flavors, and toppings in arrays for random generation. 
 
- > ## Phase III
- > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
- 
- > BEFORE the meeting you should do the following:
- > * Update your class diagram from Phase II to include any feedback you received from your TA/grader.
- > * Considering the SOLID design principles, reflect back on your class diagram and think about how you can use the SOLID principles to improve your design. You should then update the README.md file by adding the following:
- >   * A new class diagram incorporating your changes after considering the SOLID principles.
- >   * For each update in your class diagram, you must explain in 3-4 sentences:
- >     * What SOLID principle(s) did you apply?
- >     * How did you apply it? i.e. describe the change.
- >     * How did this change help you write better code?
- > * Perform a new sprint plan like you did in Phase II.
- > * You should also make sure that your README file (and Project board) are up-to-date reflecting the current status of your project and the most recent class diagram. Previous versions of the README file should still be visible through your commit history.
- 
-> During the meeting with your reader you will discuss: 
- > * How effective your last sprint was (each member should talk about what they did)
- > * Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint
- > * Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?
- > * What tasks you are planning for this next sprint.
-
- 
  > ## Final deliverable
  > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
  > Before the demo, you should do the following:
