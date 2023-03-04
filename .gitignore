@@ -6,4 +6,5 @@ bin/
 googletest-build/
 googletest-download/
 googletest-src/
-lib/
+lib/libgtest_main.a
+lib/libgtest.a
