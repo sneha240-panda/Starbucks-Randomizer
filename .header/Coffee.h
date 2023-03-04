@@ -8,7 +8,6 @@ class Coffee : public Drink, public Caffeinated
 private:
     std::string isName = "Coffee";
     
-
 public:
     Coffee(bool);
     std::string getName();
