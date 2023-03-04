@@ -3,30 +3,28 @@
 #include <iostream>
 using namespace std;
 
-Weather::Weather(string w)
-{
-    weatherType = w; //the user should most likely input one word to describe the weather
-}
 Weather::Weather()
 {
-    weatherType = "cloudy";
+    currentWeather = 2;
 }
-string Weather::classifyDrinkType() //should tell what class of drinks the program should go to based on weather
+
+void Weather::getWeatherTypes()
 {
-    if (weatherType == "sunny")
+    int i = 0;
+    for (; i < weatherTypes.size() - 1; i++)
     {
-        //choose the refreshers, teas or lattes (cold drinks) - need these classes most likely
+        cout << i << ": " << weatherTypes.at(i) << ", ";
     }
-    if (weatherType == "cloudy")
-    {
-        //choose lattes, americanos, espressos - any hot drinks (need classes for those)
-    }  
-    if (weatherType == "snowy")
-    {
-        //choose lattes, americanos, espressos - any hot drinks (need classes for those)
-    }  
-    if (weatherType == "rainy")
-    {
-        //choose lattes, americanos, espressos - any hot drinks (need classes for those)
-    }
+
+    cout << i << ": " << weatherTypes.at(i) << endl;
+}
+
+void Weather::setCurrentWeather(int currentPosition)
+{
+    currentWeather = currentPosition;
+}
+
+string Weather::getCurrentWeather()
+{
+    return weatherTypes.at(currentWeather);
 }

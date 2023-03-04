@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "header/User.h"
+#include "header/Weather.h"
 
 using namespace std;
 
@@ -8,6 +9,7 @@ int main()
 {
     string stringInput = "";
     User *user;
+    Weather *weather;
     while (true)
     {
         cout << "Hi, welcome to Starbucks Sample!" << endl;
@@ -31,9 +33,18 @@ int main()
             user = new User();
         }
 
-        //cout << user->getName() << " " << user->getAge() << endl;
-        
+        weather = new Weather();
+        int currentWeather = -1;
+        cout << "What is the weather like now?" << endl;
+        weather->getWeatherTypes();
+        cout << "Enter the corresponding number: ";
+        cin >> currentWeather;
+        weather->setCurrentWeather(currentWeather);
+
+        cout << user->getName() << " " << user->getAge() << endl;
+        cout << weather->getCurrentWeather() << endl;
         break;
     }
+    delete weather;
     delete user;
 }
