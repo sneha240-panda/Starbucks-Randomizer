@@ -1,4 +1,4 @@
-#include "../header/Weather.h"
+#include "../lib/Weather.h"
 #include <string>
 #include <iostream>
 using namespace std;

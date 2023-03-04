@@ -1,22 +1,22 @@
 #include <iostream>
 #include <string>
-#include "header/User.h"
-#include "header/Weather.h"
+#include "lib/User.h"
+#include "lib/Weather.h"
 
 using namespace std;
 
 int main()
 {
-    string stringInput = "";
+    string getName = "";
     User *user;
     Weather *weather;
     while (true)
     {
         cout << "Hi, welcome to Starbucks Sample!" << endl;
         cout << "Would you like to tell us your name and age? \n(y: yes, I'd love to; n: no, next time): ";
-        cin >> stringInput;
+        cin >> getName;
 
-        if (stringInput == "y")
+        if (getName == "y")
         {
             string name;
             int age;
@@ -28,7 +28,7 @@ int main()
             user = new User(name, age);
         }
 
-        else if (stringInput == "n")
+        else if (getName == "n")
         {
             user = new User();
         }
@@ -43,6 +43,8 @@ int main()
 
         cout << user->getName() << " " << user->getAge() << endl;
         cout << weather->getCurrentWeather() << endl;
+
+
         break;
     }
     delete weather;

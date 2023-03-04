@@ -1,4 +1,4 @@
-#include "../header/User.h"
+#include "../lib/User.h"
 #include <string>
 
 using namespace std;
