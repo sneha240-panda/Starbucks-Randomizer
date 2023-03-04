@@ -1,6 +1,6 @@
 #include <iostream>
-#include "User.h"
-// test
+#include "header/User.h"
+
 using namespace std;
 
 int main()
