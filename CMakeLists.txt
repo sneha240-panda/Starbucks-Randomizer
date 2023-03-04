@@ -41,7 +41,7 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
 endif ()
 
 set(SOURCE_FILES src/User.cpp src/Weather.cpp)
-add_executable(main main.cpp ${SOURCE_FILES})
+add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 
 set(TEST_FILES test/userTest.cpp)
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})

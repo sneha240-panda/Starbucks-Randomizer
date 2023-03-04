@@ -9,8 +9,9 @@ User::User(string passName, int passAge)
     userAge = passAge;
 }
 
-User::User() {
-    userName = "AwsomeSauce";
+User::User()
+{
+    userName = "AwesomeSauce";
     userAge = 25;
 }
 

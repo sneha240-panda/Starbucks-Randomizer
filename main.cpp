@@ -41,9 +41,9 @@ int main()
         cin >> currentWeather;
         weather->setCurrentWeather(currentWeather);
 
-        cout << user->getName() << " " << user->getAge() << endl;
-        cout << weather->getCurrentWeather() << endl;
-
+        cout << "Name: " << user->getName() << "\n"
+             << "Age:" << user->getAge() << endl;
+        cout << "Weather: " << weather->getCurrentWeather() << endl;
 
         break;
     }
