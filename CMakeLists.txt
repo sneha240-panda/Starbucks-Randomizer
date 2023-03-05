@@ -46,6 +46,7 @@ src/Weather.cpp
 src/Drink.cpp
 src/Refresher.cpp
 src/CremeFrappuccino.cpp
+src/HotChocolate.cpp
 )
 add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 
