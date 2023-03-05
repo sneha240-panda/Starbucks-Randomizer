@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 #include "../lib/User.h"
 
-TEST(UsetTest, testDefaultConstructor)
+TEST(UserTest, testDefaultConstructor)
 {
     User *user = new User();
     EXPECT_EQ(user->getAge(), 25);
