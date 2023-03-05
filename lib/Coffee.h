@@ -6,10 +6,11 @@
 
 class Coffee : public Drink
 {
-    protected:
-        int numEspressoShots;
+protected:
+    int numEspressoShots;
 
-    public:
-        Coffee();
-}
+public:
+    Coffee();
+    std::string getNumberEspresso();
+};
 #endif

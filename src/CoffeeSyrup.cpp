@@ -1,6 +1,8 @@
 #include "../lib/CoffeeSyrup.h"
 #include "../lib/Drink.h"
 #include <string>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 CoffeeSyrup::CoffeeSyrup(Drink *currentDrink)
@@ -10,5 +12,7 @@ CoffeeSyrup::CoffeeSyrup(Drink *currentDrink)
 
 string CoffeeSyrup::getName()
 {
-    return "\nDrink: " + drink->getTemp() + " " + drink->getName() + "\n" + "Syrup: " + syrups.at(0);
+    srand(time(0));
+    int randIndex = rand() % syrups.size();
+    return drink->getName() + "\n" + "Syrup: " + syrups.at(randIndex);
 }

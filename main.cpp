@@ -2,8 +2,8 @@
 #include <string>
 #include "lib/User.h"
 #include "lib/Weather.h"
-#include "lib/HotChocolate.h"
-#include "lib/CoffeeSyrup.h"
+#include "lib/CremeFrappuccino.h"
+#include "lib/CremeFrappuccinoFlavor.h"
 
 using namespace std;
 
@@ -35,7 +35,7 @@ int main()
             user = new User();
         }
 
-        weather = new Weather();
+        weather = new Weather(2);
         int currentWeather = -1;
         cout << "What is the weather like now?" << endl;
         weather->getWeatherTypes();
@@ -47,11 +47,13 @@ int main()
              << "Age:" << user->getAge() << endl;
         cout << "Weather: " << weather->getCurrentWeather() << endl;
 
-        HotChocolate *refresher = new HotChocolate();
-        CoffeeSyrup *coffeeSyrup = new CoffeeSyrup(refresher);
+        bool isHot = false;
+        CremeFrappuccino *refresher = new CremeFrappuccino();
+        CremeFrappuccinoFlavor *coffeeSyrup = new CremeFrappuccinoFlavor(refresher);
 
         cout << coffeeSyrup->getName() << endl;
 
+        delete coffeeSyrup;
         delete refresher;
         break;
     }

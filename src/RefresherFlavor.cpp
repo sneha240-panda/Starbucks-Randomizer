@@ -1,6 +1,7 @@
 #include "../lib/RefresherFlavor.h"
-#include "../lib/Drink.h"
 #include <string>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 RefresherFlavor::RefresherFlavor(Drink *currentDrink)
@@ -10,5 +11,7 @@ RefresherFlavor::RefresherFlavor(Drink *currentDrink)
 
 string RefresherFlavor::getName()
 {
-    return "\nDrink: " + drink->getTemp() + " " + drink->getName() + "\n" + "Refresher Flavor: " + refresherFlavors.at(0);
+    srand(time(0));
+    int randIndex = rand() % refresherFlavors.size();
+    return refresherFlavors.at(randIndex) + " " + drink->getName();
 }
