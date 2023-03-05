@@ -1,4 +1,6 @@
-#include "../header/Americano.h"
+#include "../lib/Americano.h"
+#include "../lib/Coffee.h"
+#include "../lib/Drink.h"
 #include <string>
 
 Americano::Americano(bool isItHot, int numOfEspressoShots)
@@ -9,5 +11,5 @@ Americano::Americano(bool isItHot, int numOfEspressoShots)
 
 std::string Americano::getName()
 {
-    return this->getTemp() + " Americano with " + numOfEspressoShots + " shots.";
+    return Drink::getTemp() + " Americano with " + getNumberEspresso() + " espresso shot.";
 }
