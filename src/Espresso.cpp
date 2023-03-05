@@ -8,5 +8,5 @@ Espresso::Espresso(int numOfEspressoShots)
 
 std::string Americano::getName()
 {
-    return "Latte";
+    return "Espresso";
 }
