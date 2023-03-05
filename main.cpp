@@ -2,8 +2,8 @@
 #include <string>
 #include "lib/User.h"
 #include "lib/Weather.h"
-#include "lib/Espresso.h"
-#include "lib/CoffeeSyrup.h"
+#include "lib/Refresher.h"
+#include "lib/RefresherFlavor.h"
 
 using namespace std;
 
@@ -48,8 +48,8 @@ int main()
         cout << "Weather: " << weather->getCurrentWeather() << endl;
 
         bool isHot = false;
-        Espresso *refresher = new Espresso(2);
-        CoffeeSyrup *coffeeSyrup = new CoffeeSyrup(refresher);
+        Refresher *refresher = new Refresher();
+        RefresherFlavor *coffeeSyrup = new RefresherFlavor(refresher);
 
         cout << coffeeSyrup->getName() << endl;
 
