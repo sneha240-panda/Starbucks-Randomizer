@@ -51,7 +51,10 @@ src/CoffeeSyrup.cpp
 )
 add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 
-set(TEST_FILES test/userTest.cpp)
+set(TEST_FILES 
+test/userTest.cpp
+test/weatherTest.cpp
+)
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})
 
 target_link_libraries(test gtest gtest_main)

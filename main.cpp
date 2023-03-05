@@ -35,7 +35,7 @@ int main()
             user = new User();
         }
 
-        weather = new Weather();
+        weather = new Weather(2);
         int currentWeather = -1;
         cout << "What is the weather like now?" << endl;
         weather->getWeatherTypes();
@@ -52,6 +52,7 @@ int main()
 
         cout << coffeeSyrup->getName() << endl;
 
+        delete coffeeSyrup;
         delete refresher;
         break;
     }
