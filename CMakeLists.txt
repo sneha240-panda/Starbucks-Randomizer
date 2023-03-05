@@ -40,7 +40,15 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
     include_directories("${gtest_SOURCE_DIR}/include")
 endif ()
 
-set(SOURCE_FILES src/User.cpp src/Weather.cpp)
+set(SOURCE_FILES 
+src/User.cpp 
+src/Weather.cpp 
+src/Drink.cpp
+src/Refresher.cpp
+src/CremeFrappuccino.cpp
+src/HotChocolate.cpp
+src/CoffeeSyrup.cpp
+)
 add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 
 set(TEST_FILES test/userTest.cpp)

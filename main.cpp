@@ -2,6 +2,8 @@
 #include <string>
 #include "lib/User.h"
 #include "lib/Weather.h"
+#include "lib/HotChocolate.h"
+#include "lib/CoffeeSyrup.h"
 
 using namespace std;
 
@@ -45,6 +47,12 @@ int main()
              << "Age:" << user->getAge() << endl;
         cout << "Weather: " << weather->getCurrentWeather() << endl;
 
+        HotChocolate *refresher = new HotChocolate();
+        CoffeeSyrup *coffeeSyrup = new CoffeeSyrup(refresher);
+
+        cout << coffeeSyrup->getName() << endl;
+
+        delete refresher;
         break;
     }
     delete weather;
