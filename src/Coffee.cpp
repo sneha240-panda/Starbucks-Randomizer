@@ -10,9 +10,9 @@ std::string Coffee::getNumberEspresso()
 {
     if (numEspressoShots == 1)
     {
-        return "a single";
+        return "single";
     }
 
     else
-        return "a double";
+        return "double";
 }

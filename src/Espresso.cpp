@@ -1,4 +1,4 @@
-#include "../header/Espresso.h"
+#include "../lib/Espresso.h"
 #include <string>
 
 Espresso::Espresso(int numOfEspressoShots)
@@ -8,5 +8,5 @@ Espresso::Espresso(int numOfEspressoShots)
 
 std::string Espresso::getName()
 {
-    return numOfEspressoShots + " shots Espresso.";
+    return "A " + getNumberEspresso() + " shot Espresso.";
 }

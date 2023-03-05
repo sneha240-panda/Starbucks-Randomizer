@@ -2,8 +2,7 @@
 #include <string>
 #include "lib/User.h"
 #include "lib/Weather.h"
-#include "lib/Coffee.h"
-#include "lib/Americano.h"
+#include "lib/Espresso.h"
 #include "lib/CoffeeSyrup.h"
 
 using namespace std;
@@ -49,7 +48,7 @@ int main()
         cout << "Weather: " << weather->getCurrentWeather() << endl;
 
         bool isHot = false;
-        Americano *refresher = new Americano(isHot, 2);
+        Espresso *refresher = new Espresso(2);
         CoffeeSyrup *coffeeSyrup = new CoffeeSyrup(refresher);
 
         cout << coffeeSyrup->getName() << endl;
