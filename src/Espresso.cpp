@@ -6,7 +6,7 @@ Espresso::Espresso(int numOfEspressoShots)
     numEspressoShots = numOfEspressoShots;
 }
 
-std::string Americano::getName()
+std::string Espresso::getName()
 {
-    return "Espresso";
+    return numOfEspressoShots + " shots Espresso.";
 }

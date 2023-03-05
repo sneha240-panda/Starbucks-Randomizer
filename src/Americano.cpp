@@ -9,5 +9,5 @@ Americano::Americano(bool isItHot, int numOfEspressoShots)
 
 std::string Americano::getName()
 {
-    return "Americano";
+    return this->getTemp() + " Americano with " + numOfEspressoShots + " shots.";
 }

@@ -3,8 +3,9 @@
 
 #include <string>
 #include "Coffee.h"
+#include "Drink.h"
 
-class Espresso : public Coffee
+class Espresso : public Coffee, public Drink
 {       
     public:
         Espresso(int numEspressoShots);
