@@ -1,7 +1,7 @@
 #include "../header/Coffee.h"
 #include <string>
 
-std::string Coffee::getName()
+Coffee::Coffee()
 {
-    return isName;
+    numEspressoShots = 1;
 }

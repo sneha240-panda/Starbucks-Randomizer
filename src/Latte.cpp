@@ -7,7 +7,7 @@ Latte::Latte(bool isItHot, int numOfEspressoShots)
     numEspressoShots = numOfEspressoShots;
 }
 
-std::string Americano::getName()
+std::string Espresso::getName()
 {
-    return "You have ordered a Latte."
+    return this->getTemp() + " Latte with " + numOfEspressoShots + " shots.";
 }
