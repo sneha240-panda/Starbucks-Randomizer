@@ -6,7 +6,7 @@
 class Drink
 {
 protected:
-    bool isHot = true;
+    bool isHot = false;
 
 public:
     std::string getTemp();

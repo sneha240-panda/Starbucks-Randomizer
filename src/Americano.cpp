@@ -4,7 +4,7 @@
 Americano::Americano(bool isItHot, int numOfEspressoShots)
 {
     isHot = isItHot;
-    numEspressoShots = numOfEspressoShots;
+    Coffee::numEspressoShots = numOfEspressoShots;
 }
 
 std::string Americano::getName()

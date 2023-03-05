@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "lib/User.h"
 #include "lib/Weather.h"
-#include "lib/CremeFrappuccino.h"
-#include "lib/CremeFrappuccinoFlavor.h"
+#include "lib/Randomizer.h"
 
 using namespace std;
 
@@ -28,6 +28,8 @@ int main()
             cin >> age;
 
             user = new User(name, age);
+
+            cout << "Nice to meet you, " << user->getName() << "!" << endl;
         }
 
         else if (getName == "n")
@@ -37,24 +39,28 @@ int main()
 
         weather = new Weather(2);
         int currentWeather = -1;
-        cout << "What is the weather like now?" << endl;
+        cout << "\nWhat is the weather like now?" << endl;
         weather->getWeatherTypes();
         cout << "Enter the corresponding number: ";
         cin >> currentWeather;
         weather->setCurrentWeather(currentWeather);
 
-        cout << "Name: " << user->getName() << "\n"
-             << "Age:" << user->getAge() << endl;
-        cout << "Weather: " << weather->getCurrentWeather() << endl;
+        cout << endl;
+        if (weather->getCurrentWeather() == "Hot")
+        {
+            cout << "Oof, it's hot! Let's get you something refreshing!" << endl;
+        }
 
+        if (weather->getCurrentWeather() == "Cold")
+        {
+            cout << "Oof, it's cold! Let's get you something to warm up!" << endl;
+        }
         bool isHot = false;
-        CremeFrappuccino *refresher = new CremeFrappuccino();
-        CremeFrappuccinoFlavor *coffeeSyrup = new CremeFrappuccinoFlavor(refresher);
 
-        cout << coffeeSyrup->getName() << endl;
-
-        delete coffeeSyrup;
-        delete refresher;
+        cout << "How about: " << endl;
+        Randomizer *randomizer = new Randomizer(weather);
+        cout << randomizer->getRandomDrink() << endl;
+        delete randomizer;
         break;
     }
     delete weather;
