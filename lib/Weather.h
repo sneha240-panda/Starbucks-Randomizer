@@ -17,5 +17,6 @@ public:
     void getWeatherTypes();
     void setCurrentWeather(int VectorPosition);
     string getCurrentWeather();
+    int getCurrentPos();
 };
 #endif
