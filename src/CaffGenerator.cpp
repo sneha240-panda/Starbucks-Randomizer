@@ -2,8 +2,6 @@
 #include "../lib/Americano.h"
 #include "../lib/ChaiTea.h"
 #include "../lib/CoffeeSyrup.h"
-#include "../lib/CremeFrappuccino.h"
-#include "../lib/CremeFrappuccinoFlavor.h"
 #include "../lib/Espresso.h"
 #include "../lib/Latte.h"
 
