@@ -2,10 +2,10 @@
 
 string Drink::getTemp(){
   if(is_hot == true){
-   return true; 
+   return "Hot"; 
   }
   
-  if(is_hot == false){
-   return false; 
+  else if(is_hot == false){
+   return "Iced"; 
   }
 }
