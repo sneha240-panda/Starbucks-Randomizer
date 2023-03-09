@@ -32,12 +32,6 @@ void CaffGenerator::generateList(vector<string> *drinkList, bool *isHot)
     drinkList->push_back(chaiTea->getName());
     delete chaiTea;
 
-    CremeFrappuccino *cremeFrap = new CremeFrappuccino();
-    CremeFrappuccinoFlavor *frapFlavor = new CremeFrappuccinoFlavor(cremeFrap);
-    drinkList->push_back(frapFlavor->getName());
-    delete cremeFrap;
-    delete frapFlavor;
-
     Espresso *espresso = new Espresso(1);
     drinkList->push_back(espresso->getName());
     delete espresso;
