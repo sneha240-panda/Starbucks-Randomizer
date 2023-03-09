@@ -32,7 +32,7 @@ void CaffGenerator::generateList(vector<string> *drinkList, bool *isHot)
     drinkList->push_back(chaiTea->getName());
     delete chaiTea;
 
-    Espresso *espresso = new Espresso(1);
+    Espresso *espresso = new Espresso(1); //espresso shots (1)
     drinkList->push_back(espresso->getName());
     delete espresso;
 }
