@@ -11,10 +11,11 @@
 
 using namespace std;
 
-Randomizer::Randomizer(Weather *currentWeather, int theUserAge)
+Randomizer::Randomizer(Weather *currentWeather, int theUserAge, int UserChoiceDrink)
 {
     weather = currentWeather;
     age = theUserAge;
+    choiceDrink = UserChoiceDrink;
 }
 
 string Randomizer::getRandomDrink()  
@@ -45,8 +46,21 @@ string Randomizer::getRandomDrink()
     }
     else
     {
-        caffGenerator->generateList(&drinkList, &isHot); // generate list of americano, latte, chaiTea, and espresso 
-        delete caffGenerator; // delete the caff generator object (cuz you gotta deallocate memory)
+        if (choiceDrink == 0)
+        {
+            caffGenerator->generateList(&drinkList, &isHot); // generate list of americano, latte, chaiTea, and espresso 
+            delete caffGenerator; // delete the caff generator object (cuz you gotta deallocate memory)
+        }
+        else if (choiceDrink == 1)
+        {
+            nonCaffGenerator->generateList(&drinkList, &isHot); // generate list of creme frappuccino, refresher, and hot chocolate
+            delete nonCaffGenerator; // deleting the noncaf generator
+        }
+        else if (choiceDrink == 2) 
+        {
+            nonCafAndCafGen->generateList(&drinkList, &isHot); // generate list of all drinks!
+            delete nonCafAndCafGen; // deleting the all drinks generator
+        }
     }
 
     srand(time(0)); // seed for random
