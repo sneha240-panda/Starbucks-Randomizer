@@ -1,5 +1,5 @@
-#ifndef CAFFGENERATOR_H
-#define CAFFGENERATOR_H
+#ifndef NONCAFFANDCAF_H
+#define NONCAFFANDCAF_H
 
 #include "ListGenerator.h"
 #include <vector>
@@ -7,12 +7,10 @@
 
 using namespace std;
 
-class CaffGenerator : public ListGenerator
+class NonCafAndCaf : public ListGenerator
 {
 public:
     void generateList(vector<string> *drinkList, bool *isHot) override;
 };
-
-
 
 #endif

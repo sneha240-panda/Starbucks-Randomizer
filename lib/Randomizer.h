@@ -8,9 +8,10 @@ class Randomizer
 {
 private:
     Weather *weather;
+    int age;
 
 public:
-    Randomizer(Weather *currentWeather);
+    Randomizer(Weather *currentWeather, int theUserAge);
     std::string getRandomDrink();
 };
 #endif

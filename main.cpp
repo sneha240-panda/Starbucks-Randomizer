@@ -58,7 +58,7 @@ int main()
         bool isHot = false;
 
         cout << "How about: " << endl;
-        Randomizer *randomizer = new Randomizer(weather);
+        Randomizer *randomizer = new Randomizer(weather, user->getAge());
         cout << randomizer->getRandomDrink() << endl;
         delete randomizer;
         break;
