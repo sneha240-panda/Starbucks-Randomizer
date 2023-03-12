@@ -10,7 +10,7 @@ using namespace std;
 class NonCaffGenerator : public ListGenerator
 {
 public:
-    void generateList(vector<string> *drinkList, bool *isHot);
+    void generateList(vector<string> *drinkList, bool *isHot) override;
 };
 
 #endif

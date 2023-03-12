@@ -25,8 +25,7 @@ void NonCaffGenerator::generateList(vector<string> *drinkList, bool *isHot)
     delete refresh;
     delete refresherFlavor;
     
-    HotChocolate *hotChocolate = new HotChocolate(*isHot);
+    HotChocolate *hotChocolate = new HotChocolate();
     drinkList->push_back(hotChocolate->getName());
     delete hotChocolate;
-
 }

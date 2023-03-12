@@ -55,10 +55,17 @@ int main()
         {
             cout << "Oof, it's cold! Let's get you something to warm up!" << endl;
         }
-        bool isHot = false;
 
+        int userChoice = 1;
+
+        if (user->getAge() > 10)
+        {
+            cout << "Would you like a caffeinated (0), noncaffeinated (1), or any (2) drink? Type in the corresponding number." << endl;
+            cin >> userChoice;
+        }
+    
         cout << "How about: " << endl;
-        Randomizer *randomizer = new Randomizer(weather);
+        Randomizer *randomizer = new Randomizer(weather, user->getAge(), userChoice);
         cout << randomizer->getRandomDrink() << endl;
         delete randomizer;
         break;

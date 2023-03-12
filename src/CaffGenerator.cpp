@@ -13,7 +13,6 @@ using namespace std;
 
 void CaffGenerator::generateList(vector<string> *drinkList, bool *isHot)
 {
-
     Americano *americano = new Americano(*isHot, 1);
     CoffeeSyrup *amSyrup = new CoffeeSyrup(americano);
     drinkList->push_back(amSyrup->getName());
