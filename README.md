@@ -28,24 +28,36 @@ One feature we would have is the option to select allergies or dietary restricti
  
 ![alt text](/images/readme/UML.png)
 
-The User class has two private attributes, name and age, and a constructor to create a new User instance with these values. The Drink class has one private attribute, temperature, and a getName() method that returns the name of the drink. The syrup and flavor classes are decorators for the Drink class, and they inherit from the Drink class. They each have a constructor that takes a Drink instance and a getName() method that returns the name of the decorated drink. The Hot Chocolate, Chai Tea, and Creme Frappuccino and other classes are derived from the Drink class, and they each have a getName() method that returns the name of the drink. The Randomizer class has two derived classes: CaffRandomizer and NonCaffRandomizer. These classes implement the getRandomDrink() method, which returns a randomly generated name of the drink based on the user's age, the current weather, and the available drinks.
+The User class has two private attributes, name and age, and a constructor to create a new User instance with these values. The Drink class has one private attribute, temperature, and a getName() method that returns the name of the drink. The syrup and flavor classes are decorators for the Drink class, and they inherit from the Drink class. They each have a constructor that takes a Drink instance and a getName() method that returns the name of the decorated drink. The Hot Chocolate, Chai Tea, and Creme Frappuccino and other classes are derived from the Drink class, and they each have a getName() method that returns the name of the drink. The Generator class has three derived classes that generate different lists of drinks. These classes populate a vector in Randomizer class, which returns a randomly generated name of the drink based on the user's age, the current weather, and/or user preference.
 
 Each class in the diagram has only one responsibility following Single Responsibility Principle. In the given program, we can ensure OCP by using decorators for the Syrup and Flavor classes. Instead of modifying the Drink class every time we want to add a new flavor or syrup, we can create new classes that inherit from the Drink class and add the new behavior as a decorator. This will ensure that the Drink class remains closed for modification, but open for extension, securing Open-Closed principle. To preserve the Liskov Substitution principle the derived classes (Hot Chocolate, Chai Tea, Creme Frappuccino and others) behave like their base class (Drink). We can ensure this by making sure that each derived class implements the same interface as the base class and that they behave in a way that is consistent with the base class. 
 
 These changes helped us to write better code because they are breaking up our tasks and allowing us to focus on one importance at a time. With SRP, single responsibilty principle, focusing on one thing at a time makes code easier to break down and understand as well as debug. OCP states just to add and not modify older code to make tracing easier. LSP states any function or method that works with a base type should work with all of its subtypes without causing errors. This principle makes it easier to reason about code since developers can rely on the behavior of the base type and its subtypes without worrying about unexpected behavior. ISP makes code modular, making it more specific, and should not be forced to be depednent on useless imterfaces. Basically making all code useful and important, makes none of it unhelpful. DIP states that high-level modules should not depend on low-level modules. Instead, both should depend on abstractions, which reduces coupling and makes code more flexible and easier to test.
 
+## Screenshots
 
- > ## Final deliverable
- > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
- > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history. 
+![alt text](/images/readme/sample1.png)
+![alt text](/images/readme/sample2.png)
+![alt text](/images/readme/sample3.png)
+
+## Installation/Usage
  
- ## Screenshots
- > Screenshots of the input/output after running your application
- ## Installation/Usage
- > Instructions on installing and running your application
+ This is a simple command line program. 
+ 1. Download the code to your local machine from the repository.
+ 2. Open the terminal and use `cd` command to move to the folder containing the program.
+ 3. Run the following comands in the terminal:
+```
+cmake .
+make
+```
+```
+./bin/starbucks_sampler
+```
+4. The program should run. You can answer the prompts to get a random drink. 
+
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+
+We used Googletest to test the functionality of the program. CI is implemented using GitHub Actions and the badge is present at the top of this file. We also ran Valgrind for memory leaks (see the screenshot below).
+
+![alt text](/images/readme/valgrind.png)
  
