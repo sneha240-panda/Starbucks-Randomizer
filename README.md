@@ -36,9 +36,9 @@ These changes helped us to write better code because they are breaking up our ta
 
 ## Screenshots
 
-![alt text](/images/readme/sample1.png)
-![alt text](/images/readme/sample2.png)
-![alt text](/images/readme/sample3.png)
+![alt text](/images/readme/sample1.png | width=200)
+![alt text](/images/readme/sample2.png) | width=200)
+![alt text](/images/readme/sample3.png | width=200)
 
 ## Installation/Usage
  
@@ -59,5 +59,5 @@ make
 
 We used Googletest to test the functionality of the program. CI is implemented using GitHub Actions and the badge is present at the top of this file. We also ran Valgrind for memory leaks (see the screenshot below).
 
-![alt text](/images/readme/valgrind.png)
+![alt text](/images/readme/valgrind.png | width=200)
  
