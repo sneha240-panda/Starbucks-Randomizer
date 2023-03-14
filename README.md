@@ -36,10 +36,11 @@ These changes helped us to write better code because they are breaking up our ta
 
 ## Screenshots
 
-![alt text](/images/readme/sample1.png | width=200px)
-![alt text](/images/readme/sample2.png | width=50%)
-![alt text](/images/readme/sample3.png | width=200px)
-
+<div style="width:100px>
+![alt text](/images/readme/sample1.png)
+![alt text](/images/readme/sample2.png)
+![alt text](/images/readme/sample3.png)
+<div>
 ## Installation/Usage
  
  This is a simple command line program. 
