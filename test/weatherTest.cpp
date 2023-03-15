@@ -12,3 +12,15 @@ TEST(WeatherTests, weatherConstructorParameterized) // tests paramterized constr
     Weather *weather2 = new Weather(1);
     EXPECT_EQ(weather2->getCurrentWeather(), "Cold");
 }
+
+TEST(WeatherTests, weatherConstructorParameterized) // tests paramterized constructor
+{
+    Weather *weather3 = new Weather(0);
+    EXPECT_EQ(weather3->getCurrentWeather(), "Hot");
+}
+
+TEST(WeatherTests, weatherConstructorParameterized) // tests paramterized constructor
+{
+    Weather *weather4 = new Weather(2);
+    EXPECT_EQ(weather4->getCurrentWeather(), "Any");
+}
