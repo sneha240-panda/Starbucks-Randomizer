@@ -3,12 +3,6 @@
 #include "../lib/Drink.h"
 #include <string>
 
-TEST(ChaiConstructorTest, CTtest1)
-{
-    Chai chai1();
-    EXPECT_EQ(chai1.getTemp(), "Hot");
-
-
 TEST(ChaiConstructorTest, CTtest2)
 {
     Chai chai2(true);
@@ -18,7 +12,7 @@ TEST(ChaiConstructorTest, CTtest2)
 TEST(ChaiConstructorTest, CTtest3)
 {
     Chai chai3(false);
-    EXPECT_EQ(chai3.getTemp(), "Hot");
+    EXPECT_EQ(chai3.getTemp(), "Iced");
 }
 
 TEST(ChaiGetNameTest, CTtest4)
@@ -30,12 +24,7 @@ TEST(ChaiGetNameTest, CTtest4)
 TEST(ChaiGetNameTest, CTtest5)
 {
     Chai chai5(false);
-    EXPECT_EQ(chai5.getName(), "Hot Chai Tea");
+    EXPECT_EQ(chai5.getName(), "Iced Chai Tea");
 }
 
-TEST(ChaiGetNameTest, CTtest6)
-{
-    Chai chai6();
-    EXPECT_EQ(chai6.getName(), "Hot Chai Tea");
-}
 
