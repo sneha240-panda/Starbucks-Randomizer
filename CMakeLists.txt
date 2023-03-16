@@ -67,12 +67,11 @@ add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 set(TEST_FILES 
 test/userTest.cpp
 test/weatherTest.cpp
+test/DrinkTest.cpp
 test/chaiTest.cpp
 test/CremeFrapTest.cpp
 test/RefresherTest.cpp
-test/latteTest.cpp
-test/expressoTest.cpp
-test/americanoTest.cpp
+
 )
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})
 
