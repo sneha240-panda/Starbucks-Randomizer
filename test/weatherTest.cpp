@@ -13,7 +13,9 @@ TEST(WeatherTests,weatherConstructorParameterized) //tests paramterized construc
     EXPECT_EQ(weather2->getCurrentWeather(), "Cold");
 }
 
-TEST(WeatherTests,)
+TEST(WeatherTests, weatherTypes)
 {
-
+    Weather *weather4 = new Weather();
+    unsigned int i = 0;
+    for (; i < )
 }
