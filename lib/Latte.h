@@ -3,12 +3,14 @@
 
 #include <string>
 #include "Coffee.h"
-#include "Drink.h"
 
 class Latte : public Coffee
 {
-    public:
-        Latte(bool isHot, int numEspressoShots);
-        std::string getName();
+
+public:
+    Latte(bool isHot, int numEspressoShots);
+    std::string getName();
 };
+
+
 #endif

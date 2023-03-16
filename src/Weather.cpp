@@ -11,7 +11,7 @@ Weather::Weather(int userPos) // constructor for the user input, instead of it a
 {
     currentWeather = userPos;
 }
-void Weather::getWeatherTypes() //prints out options for weather
+void Weather::getWeatherTypes() // prints out options for weather
 {
     int i = 0;
     for (; i < weatherTypes.size() - 1; i++)
@@ -22,7 +22,7 @@ void Weather::getWeatherTypes() //prints out options for weather
     cout << i << ": " << weatherTypes.at(i) << endl;
 }
 
-void Weather::setCurrentWeather(int currentPosition) 
+void Weather::setCurrentWeather(int currentPosition)
 {
     currentWeather = currentPosition;
 }
@@ -31,3 +31,9 @@ string Weather::getCurrentWeather()
 {
     return weatherTypes.at(currentWeather);
 }
+
+int Weather::getCurrentPos()
+{
+    return currentWeather;
+}
+

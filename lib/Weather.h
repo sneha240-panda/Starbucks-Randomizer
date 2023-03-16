@@ -12,8 +12,9 @@ private:
     int currentWeather;
 
 public:
-    Weather();
     Weather(int userPos);
+    Weather();
+   
     void getWeatherTypes();
     void setCurrentWeather(int VectorPosition);
     string getCurrentWeather();

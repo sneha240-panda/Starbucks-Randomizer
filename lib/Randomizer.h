@@ -2,10 +2,17 @@
 #define RANDOMIZER_H
 
 #include <string>
+#include "Weather.h"
 
-class Randomizer {
+class Randomizer
+{
+private:
+    Weather *weather;
+    int age;
+    int choiceDrink;
+
 public:
-    virtual std::string getRandomDrink() = 0;
+    Randomizer(Weather *currentWeather, int theUserAge, int UserChoiceDrink);
+    std::string getRandomDrink();
 };
-
 #endif

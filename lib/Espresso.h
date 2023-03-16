@@ -3,12 +3,13 @@
 
 #include <string>
 #include "Coffee.h"
-#include "Drink.h"
 
 class Espresso : public Coffee
-{       
-    public:
-        Espresso(int numEspressoShots);
-        std::string getName();
-    }
+
+{
+public:
+    Espresso(int numEspressoShots);
+    std::string getName();
+};
+
 #endif

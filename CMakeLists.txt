@@ -48,14 +48,32 @@ src/Refresher.cpp
 src/CremeFrappuccino.cpp
 src/HotChocolate.cpp
 src/CoffeeSyrup.cpp
-src/Latte.cpp 
-src/Espresso.cpp
+
+src/ChaiTea.cpp
 src/Americano.cpp
-src/Tea.cpp
+src/Coffee.cpp
+src/Latte.cpp
+src/Espresso.cpp
+src/RefresherFlavor.cpp
+src/CremeFrappuccinoFlavor.cpp
+src/CaffGenerator.cpp
+src/Randomizer.cpp
+src/NonCaffGenerator.cpp
+src/NonCafAndCaf.cpp
+
 )
 add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 
-set(TEST_FILES test/userTest.cpp)
+set(TEST_FILES 
+test/userTest.cpp
+test/weatherTest.cpp
+test/chaiTest.cpp
+test/CremeFrapTest.cpp
+test/RefresherTest.cpp
+test/latteTest.cpp
+test/expressoTest.cpp
+test/americanoTest.cpp
+)
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})
 
 target_link_libraries(test gtest gtest_main)

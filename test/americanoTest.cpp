@@ -6,14 +6,14 @@
 
 //testing the constructor, getTemp()
 
-Test(AmericanoConstructorTest, ATest1){
+TEST(AmericanoConstructorTest, ATest1){
 	Americano americano1(true, 3);
-	Expect_EQ(american1.getTemp(), "Hot");
+	EXPECT_EQ(americano1.getTemp(), "Hot");
 }
 
-Test(AmericanoConstructorTest, ATest2){
+TEST(AmericanoConstructorTest, ATest2){
 	Americano americano2(false, 4);
-	Expect_EQ(americano2.getTemp(), "Iced");
+	EXPECT_EQ(americano2.getTemp(), "Iced");
 }
 
 TEST(AmericanoConstructorTest, Atest3)
@@ -29,16 +29,16 @@ TEST(AmericanoConstructorTest, Atest3)
 TEST(AmericanoGetNameTest, Atest4)
 {
     Americano americano4(true, 1);
-    EXPECT_EQ(americano4.getName(), "Hot Americano with a 1 espresso shot.");
+    EXPECT_EQ(americano4.getName(), "Hot Americano with a single espresso shot.");
 }
 
 TEST(AmericanoGetNameTest, Atest5){
     Americano americano5(false, 3);
-    EXPECT_EQ(americano5.getName(), "Iced Americano with a 3 espresso shot.");
+    EXPECT_EQ(americano5.getName(), "Iced Americano with a double espresso shot.");
 }
 
 TEST(AmericanoGetNameTest, Atest6){
     Americano americano5(true, 5);
-    ASSERT_EQ(americano5.getName(), "Hot Americano with a 5 espresso shot.");
+    ASSERT_EQ(americano5.getName(), "Hot Americano with a double espresso shot.");
 }
 
