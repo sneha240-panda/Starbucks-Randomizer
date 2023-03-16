@@ -32,3 +32,13 @@ TEST(AmericanoGetNameTest, Atest4)
     EXPECT_EQ(americano4.getName(), "Hot Americano with a 1 espresso shot.");
 }
 
+TEST(AmericanoGetNameTest, Atest5){
+    Americano americano5(false, 3);
+    EXPECT_EQ(americano5.getName(), "Iced Americano with a 3 espresso shot.");
+}
+
+TEST(AmericanoGetNameTest, Atest6){
+    Americano americano5(true, 5);
+    ASSERT_EQ(americano5.getName(), "Hot Americano with a 5 espresso shot.");
+}
+
