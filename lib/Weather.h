@@ -13,8 +13,10 @@ private:
 
 public:
     Weather();
+    Weather(int userPos);
     void getWeatherTypes();
     void setCurrentWeather(int VectorPosition);
     string getCurrentWeather();
+    int getCurrentPos();
 };
 #endif
