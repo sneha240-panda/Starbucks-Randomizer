@@ -5,19 +5,26 @@
 
 TEST(FrapGetNameTest, CFtest1)
 {
-    Frap frap1();
+    CremeFrappuccino frap1;
     EXPECT_EQ(frap1.getName(), "Crème Frappuccino");
 }
 
 TEST(FrapGetNameTest, CFtest2)
 {
-    Frap frap2();
-    EXPECT_STRNE(frap2.getName(), "Creme Frappuccino");
+    CremeFrappuccino frap2;
+    std::string getName = frap2.getName();
+    char *name = new char[getName.length() + 1];
+    strcpy(name, getName.c_str());
+    char ref[] = "Creme Frappuccino";
+    EXPECT_STRNE(ref, name);
 }
 
 TEST(FrapGetNameTest, CFtest3)
 {
-    Frap frap3();
-    EXPECT_STRCASEEQ(frap3.getName(), "crème frappuccino");
+    CremeFrappuccino frap3;
+    std::string getName = frap3.getName();
+    char *name = new char[getName.length() + 1];
+    strcpy(name, getName.c_str());
+    char ref[] = "crème frappuccino";
+    EXPECT_STRCASEEQ(ref, name);
 }
-
