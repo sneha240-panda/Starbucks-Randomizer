@@ -12,3 +12,15 @@ TEST(EspressoConstructorTest, Etest1)
     ASSERT_EQ(espresso1.getNumberEspresso(), "double");
 }
 
+TEST(EspressoConstructorTest, Etest2)
+{
+    Espresso espresso2(1);
+    EXPECT_EQ(espresso2.getNumberEspresso(), "single");
+}
+
+TEST(EspressoConstructorTest, Etest3)
+{
+    Espresso espresso3(3);
+    ASSERT_EQ(espresso3.getNumberEspresso(), "double");
+}
+
