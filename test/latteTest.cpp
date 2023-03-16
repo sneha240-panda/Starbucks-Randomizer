@@ -20,4 +20,11 @@ TEST(LatteTest, ConstructorTest3){
         EXPECT_EQ(latte3.getNumEspresso（）, "double");
 }
 
+TEST(LatteTest, NameTest1){
+        Latte hotLatte1(false, 2);
+        Latte coldLatte1(true, 1);
+        
+        EXPECT_EQ(hotLatte1.getName（）, "Hot Latte with a double espresso shot.");
+        EXPECT_EQ(coldLatte1.getName（）, "Cold Latte with a single espresso shot.");
+}
 
