@@ -1,4 +1,4 @@
-#include "../header/Latte.h"
+#include "../lib/Latte.h"
 #include <string>
 
 Latte::Latte(bool isItHot, int numOfEspressoShots)
@@ -7,7 +7,7 @@ Latte::Latte(bool isItHot, int numOfEspressoShots)
     numEspressoShots = numOfEspressoShots;
 }
 
-std::string Americano::getName()
+std::string Latte::getName()
 {
-    return "You have ordered a Latte."
+    return getTemp() + " Latte with a " + getNumberEspresso() + " espresso shot.";
 }

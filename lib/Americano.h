@@ -5,9 +5,9 @@
 #include "Coffee.h"
 
 class Americano : public Coffee
-{  
-    public:
-        Americano(bool isHot, int numEspressoShots);
-        std::string getName();
-    }
+{
+public:
+    Americano(bool isHot, int numEspressoShots);
+    std::string getName();
+};
 #endif

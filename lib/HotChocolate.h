@@ -1,17 +1,12 @@
 #ifndef HOTCHOCOLATE_H
 #define HOTCHOCOLATE_H
-
+#include "Drink.h"
 #include <string>
 
-class HotChocolate : public Drink, public NonCaffeinated
+class HotChocolate : public Drink
 {
-private:
-    std::string isName = "Hot Chocolate";
-    bool whippedCream = false;
-
 public:
-    HotChocolate(bool);
-    std::string getName();
-    bool getWhipped();
-}
+    std::string getName() override;
+};
+
 #endif

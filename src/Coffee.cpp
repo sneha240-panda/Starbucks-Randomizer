@@ -1,7 +1,18 @@
-#include "../header/Coffee.h"
+#include "../lib/Coffee.h"
 #include <string>
 
-std::string Coffee::getName()
+Coffee::Coffee()
 {
-    return isName;
+    numEspressoShots = 1;
+}
+
+std::string Coffee::getNumberEspresso()
+{
+    if (numEspressoShots == 1)
+    {
+        return "single";
+    }
+
+    else
+        return "double";
 }
