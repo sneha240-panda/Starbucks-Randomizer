@@ -66,6 +66,8 @@ set(TEST_FILES
 test/userTest.cpp
 test/weatherTest.cpp
 test/chaiTest.cpp
+test/CremeFrapTest.cpp
+test/RefresherTest.cpp
 )
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})
 
