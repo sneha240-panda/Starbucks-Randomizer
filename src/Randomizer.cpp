@@ -27,9 +27,9 @@ int Randomizer::getuserChoiceDrink()
 {
     return choiceDrink;
 }
-Weather Randomizer::getCurrWeather()
+int Randomizer::getCurrWeather()
 {
-    return weather;
+    return weather->getCurrentPos();
 }
 string Randomizer::getRandomDrink()
 {
