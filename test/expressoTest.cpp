@@ -32,3 +32,16 @@ TEST(EspressoConstructorTest, Etest4)
     EXPECT_EQ(espresso4.getName(), "A double shot Espresso.");
 }
 
+TEST(EspressoConstructorTest, Etest5)
+{
+    Espresso espresso5(1);
+    EXPECT_EQ(espresso5.getName(), "A single shot Espresso.");
+}
+
+TEST(EspressoConstructorTest, Etest1)
+{
+    Espresso espresso6(5);
+    EXPECT_EQ(espresso6.getName(), "A double shot Espresso.");
+}
+
+
