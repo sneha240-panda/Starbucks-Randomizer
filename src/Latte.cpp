@@ -1,4 +1,4 @@
-#include "../header/Latte.h"
+#include "../lib/Latte.h"
 #include <string>
 
 Latte::Latte(bool isItHot, int numOfEspressoShots)
