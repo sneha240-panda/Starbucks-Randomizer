@@ -11,5 +11,6 @@ class Coffee : public Drink
 
     public:
         Coffee();
-}
+        std::string getNumberEspresso();
+};
 #endif

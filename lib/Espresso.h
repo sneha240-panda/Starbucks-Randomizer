@@ -5,7 +5,7 @@
 #include "Coffee.h"
 #include "Drink.h"
 
-class Espresso : public Coffee, public Drink
+class Espresso : public Coffee
 {       
     public:
         Espresso(int numEspressoShots);
