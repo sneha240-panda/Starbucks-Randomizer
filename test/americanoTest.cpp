@@ -16,3 +16,12 @@ Test(AmericanoConstructorTest, ATest2){
 	Expect_EQ(americano2.getTemp(), "Iced");
 }
 
+TEST(AmericanoConstructorTest, Atest3)
+{
+    Americano americano3(false, 2);
+    ASSERT_EQ(americano3.getNumberEspresso(), "double");
+    ASSERT_EQ(americano3.getTemp(), "Iced");
+}
+
+
+
