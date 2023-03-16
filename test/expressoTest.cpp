@@ -24,3 +24,11 @@ TEST(EspressoConstructorTest, Etest3)
     ASSERT_EQ(espresso3.getNumberEspresso(), "double");
 }
 
+// Testing getName function
+
+TEST(EspressoConstructorTest, Etest4)
+{
+    Espresso espresso4(2);
+    EXPECT_EQ(espresso4.getName(), "A double shot Espresso.");
+}
+
