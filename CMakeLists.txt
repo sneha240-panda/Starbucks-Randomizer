@@ -48,6 +48,10 @@ src/Refresher.cpp
 src/CremeFrappuccino.cpp
 src/HotChocolate.cpp
 src/CoffeeSyrup.cpp
+src/Latte.cpp 
+src/Expressor.cpp
+src/Americano.cpp
+src/Tea.cpp
 )
 add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 
