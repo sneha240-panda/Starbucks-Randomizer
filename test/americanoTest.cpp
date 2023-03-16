@@ -23,5 +23,12 @@ TEST(AmericanoConstructorTest, Atest3)
     ASSERT_EQ(americano3.getTemp(), "Iced");
 }
 
+// testing the getName() function
 
+
+TEST(AmericanoGetNameTest, Atest4)
+{
+    Americano americano4(true, 1);
+    EXPECT_EQ(americano4.getName(), "Hot Americano with a 1 espresso shot.");
+}
 
