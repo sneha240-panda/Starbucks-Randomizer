@@ -68,6 +68,7 @@ test/weatherTest.cpp
 test/testNonCaffGen.cpp
 test/testCaffGen.cpp
 test/testCremeFrapFlavor.cpp
+test/randomizerTest.cpp
 )
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})
 
