@@ -49,7 +49,7 @@ src/CremeFrappuccino.cpp
 src/HotChocolate.cpp
 src/CoffeeSyrup.cpp
 src/Latte.cpp 
-src/Expressor.cpp
+src/Expresso.cpp
 src/Americano.cpp
 src/Tea.cpp
 )
