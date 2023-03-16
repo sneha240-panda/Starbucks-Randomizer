@@ -71,6 +71,7 @@ test/DrinkTest.cpp
 test/chaiTest.cpp
 test/CremeFrapTest.cpp
 test/RefresherTest.cpp
+test/testCoffees.cpp
 test/refreshFlavorTest.cpp
 test/coffeeSyrupTest.cpp
 )
