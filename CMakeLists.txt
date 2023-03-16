@@ -48,6 +48,7 @@ src/Refresher.cpp
 src/CremeFrappuccino.cpp
 src/HotChocolate.cpp
 src/CoffeeSyrup.cpp
+
 src/ChaiTea.cpp
 src/Americano.cpp
 src/Coffee.cpp
@@ -59,6 +60,7 @@ src/CaffGenerator.cpp
 src/Randomizer.cpp
 src/NonCaffGenerator.cpp
 src/NonCafAndCaf.cpp
+
 )
 add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 
