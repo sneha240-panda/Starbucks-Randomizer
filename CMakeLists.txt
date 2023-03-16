@@ -71,7 +71,7 @@ test/DrinkTest.cpp
 test/chaiTest.cpp
 test/CremeFrapTest.cpp
 test/RefresherTest.cpp
-
+test/testCoffees.cpp
 )
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})
 
