@@ -65,6 +65,9 @@ add_executable(starbucks_sampler main.cpp ${SOURCE_FILES})
 set(TEST_FILES 
 test/userTest.cpp
 test/weatherTest.cpp
+test/testNonCaffGen.cpp
+test/testCaffGen.cpp
+test/testEspresso.cpp
 )
 add_executable(test ${TEST_FILES} ${SOURCE_FILES})
 
