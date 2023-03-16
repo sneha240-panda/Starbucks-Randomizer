@@ -28,3 +28,11 @@ TEST(LatteTest, NameTest1){
         EXPECT_EQ(coldLatte1.getName（）, "Cold Latte with a single espresso shot.");
 }
 
+TEST(LatteTest, NameTest1){
+        Latte coldLatte2(true, 3);
+        Latte hotLatte2(false, 1);
+
+        ASSERT_EQ(hotLatte2.getName（）, "Cold Latte with a double espresso shot.");
+        ASSERT_EQ(coldLatte2.getName（）, "Hot Latte with a single espresso shot.");
+}
+
